@@ -1,18 +1,18 @@
 import pygame
 import sys
 from bfs import *
-from AstarAlgo import *
+#from AstarAlgo import *
 pygame.init()
 
 algo_choice = 0
-print("Choose algorithm to use:")
-try:
-    algo_choice = int(input("[1] for BFS\n[2] for A* search(shortest distance)\n"))
-except:
-    print("Incorrect value enter again!!")
-    algo_choice = int(input("[1] for BFS\n[2] for A* search(shortest distance)\n"))
+#print("Choose algorithm to use:")
+#try:
+    #algo_choice = int(input("[1] for BFS\n[2] for A* search(shortest distance)\n"))
+#except:
+    #print("Incorrect value enter again!!")
+    #algo_choice = int(input("[1] for BFS\n[2] for A* search(shortest distance)\n"))
 
-
+algo_choice = 1
 #constant variables
 ##colors
 BLACK = (0, 0, 0)
